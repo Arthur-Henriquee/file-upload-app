@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"> 
+    <title>File Upload App</title>
+</head>
+<body>
+    <h1 class="projeto__titulo">Bem-vindo ao File Upload App</h1>
+    <p class="projeto__texto">Pronto para começar a fazer upload de arquivos!</p>
+    <form id="uploadForm" action="/api/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
