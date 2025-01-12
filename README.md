@@ -52,13 +52,14 @@ Siga os passos abaixo para configurar e rodar o projeto na sua máquina:
      npm start
      ``` 
 
-    5. **Acesse a aplicação no navegador**:
+  5. **Acesse a aplicação no navegador**:
 
    - Abra o navegador e digite:
-   
+
      ``` 
      http://localhost:3000
      ```
+
 
      ## Problemas que podem enfrentar
 
