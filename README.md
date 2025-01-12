@@ -26,36 +26,46 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 Siga os passos abaixo para configurar e rodar o projeto na sua máquina:
 
 1. **Clone o Repositório**  
+
    Abra o terminal ou o Git Bash e execute:
    ```bash
    git clone https://github.com/Arthur-Henriquee/file-upload-app
+
 2. **Acesse a pasta do projeto**:
+
    - No terminal, digite:
      ```bash
      cd caminho-da-pasta
-     ```
-     3. **Instale as dependências do projeto**:
+     ``` 
+
+ 3. **Instale as dependências do projeto**:
+
    - Execute o comando:
      ```bash
      npm install
      ```
-     4. **Inicie o servidor local**:
+
+  4. **Inicie o servidor local**:
+
    - Execute o comando:
      ```bash
      npm start
-     ```
+     ``` 
+
     5.  **Acesse a aplicação no navegador**:
+
    - Abra o navegador e digite:
-     ```
+     ``` 
      http://localhost:3000
      ```
+
      ## Problemas que podem enfrentar
 
 - **Erro: Porta já em uso**
   Se a porta 3000 já estiver em uso, você pode iniciar o servidor em outra porta utilizando o seguinte comando:
   ```bash
   npm start -- --port 3001
-  
+
 ## Licença
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
